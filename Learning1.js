@@ -39,6 +39,18 @@ var myStr = "Jello World";
 
 // Only change the code below this line.
 
-myStr[0] = 'H'; // Fix me.
+myStr = "Hello World" // Fix me.
 
-//
+// Bracket Notation to find the last character in a string.
+// 
+
+var firstName = "Ada";
+var lastLetterOfFirstName = firstName[firstName.length - 1]
+
+console.log(lastLetterOfFirstName)
+
+//We're going to use our knowledge of strings to creat a Mad Libs game.
+
+function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
+    
+}
