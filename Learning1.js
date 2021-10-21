@@ -53,4 +53,19 @@ console.log(lastLetterOfFirstName)
 
 function wordBlanks(myNoun, myAdjective, myVerb, myAdverb) {
     
-}
+    var result = "";
+    result += "The " + myAdjective + " " + myNoun + " " + myVerb + " to the store " + myAdverb + ".";
+    return result;
+
+};
+
+console.log(wordBlanks("dog", "big", "ran", "quickly"));
+
+// Storeing Multiple values with Arrays.
+
+var ourArray = ["Nathan", 24];
+
+var myArray = ["Allison", 26];
+
+// Nested Arrays.
+
