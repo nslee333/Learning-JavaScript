@@ -69,3 +69,51 @@ var myArray = ["Allison", 26];
 
 // Nested Arrays.
 
+// When you see smaller arrays inside of each other, this is called nested arrays or multi-dimensional array.
+
+var nateArray = [["The Universe", 37], ["Everything", 101010]];
+
+var allieArray = [["Bulls", 24], ["Red Sox", 45]];
+
+// You can use bracket notation to acess specific parts of an array.
+
+// Modify Array Data with Indexes.
+
+// With Bracket Notation, you cannot modify specific parts of a string, but with an array you can use a specific
+// index to remove or replace that character or element.
+
+var eeArray = [18,32,64];
+
+eeArray[1] = 54;
+
+console.log(eeArray);
+
+// Access nested arrays with Indexes.
+
+
+var eaArray = [[1,2,3], [4,5,6], [7,8,9,], [[10,11,12], 13, 14]];
+
+
+
+var myData = eaArray[2][1];
+// ^ Double Bracket Notation.
+console.log(myData);
+
+// Manipulate Arrays with push().
+
+// the .push() method adds elements into the end of the array.
+
+var esArray = ["Jameson", "J", "Editor"];
+esArray.push(["I Want Spiderman!", "Cigar"]);
+
+var edArray = [["Peter", 18,], ["MJ", 17]];
+
+edArray.push(["Gwen", 17]);
+
+console.log(edArray)
+
+// .Pop() function, it removes the last element in the array. The opposite of the .push method above.
+
+// Shift() method, acts very similar to the .Pop method, it removes the first element instead of the last in .pop().
+
+
