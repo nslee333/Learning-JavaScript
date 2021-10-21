@@ -116,4 +116,14 @@ console.log(edArray)
 
 // Shift() method, acts very similar to the .Pop method, it removes the first element instead of the last in .pop().
 
+// Unshift.
+// Similar to push method - except it adds an element onto the beginning of the array.
+
+var erArray = ["Nathan", "Irish",];
+
+erArray.unshift("John");
+
+console.log(erArray);
+
+// Shopping List - Nested arrays.
 
