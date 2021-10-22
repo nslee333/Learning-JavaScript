@@ -208,13 +208,39 @@ function myOutfit() {
 }
 
 console.log(myOutfit());
+console.log(outerWear);
 
+// If you run this code, you'll see that the console will output Sweater and T-Shirt. Indicating that the local variable will take precedence
+// in a function, and the global variable will stay the same.
+// This is a great example of local variable taking precedence over the global variable.
+
+// ------------------------------------------------------------
 
 // Return Keyword in functions.
 
 // You can retrieve value from a function using the return keyword.
 
+function reFunction(a, b) {
+    return (a + b);
+}
+
+console.log(reFunction(2, 2));
+// Output is 4, the return keyword returns the value of the calculation in the function.
+
+
 // Functions don't have to have a return keyword, there is a possibility than your function may return undefined.
+
+// E.g.
+
+function unFunction(a, b) {
+    a + b;
+}
+
+console.log(unFunction(2, 2));
+
+// This is the same function as before, with the function renamed and the return keyword removed.
+// This function has an output of undefined, confirming that you don't need to have a return keyword to perform a calculation.
+
 
 
 
