@@ -127,3 +127,98 @@ console.log(erArray);
 
 // Shopping List - Nested arrays.
 
+var ewArray = [["Cereal", 3], ["French Bread", 2] ["Milk", 2], ["Chicken", 2], ["Eggs", 12]];
+// Array of Arrays! Yay!
+
+// Reusable code with functions.
+
+function ourReusableFunction() {
+    console.log("Hey, World");
+}
+
+ourReusableFunction();
+
+function reusableFunction() {
+    console.log("Howdy World!");
+}
+
+reusableFunction();
+
+
+// Passing Values to Functions with Parameters.
+
+// Functions are variables that act as place holders for the values that are to be input to the function when it is called.
+
+function ourFunctionWithArgs(a, b) {
+    console.log(a - b);
+} 
+
+ourFunctionWithArgs(10, 5);
+
+// Global scope with functions.
+
+// Scope refers to the visibility of variables. 
+// Variables which are defined outside of a function block have global scope.
+// Global scope means that the variables can been seen everywhere in your code.
+
+uVar = 0;
+
+function globalValue() {
+    uVar += 1;
+    return console.log(uVar);
+};
+
+globalValue();
+
+// This code above is an example of Global Scope, the function is able to access the value of uVar because it is defined outside
+// the function. 
+// The flipside of this is that the local variable is defined inside the variable.
+
+// Local Scope and functions.
+
+// Variables which have been declared within a function as well as the function parameters have local scope.
+// Local Scope means that they are only visible from within the function.
+
+function localVariable() {
+    let pVar = 0;
+    pVar += 2;
+    string = "pVar: " + pVar;
+    return console.log(string);
+};
+
+localVariable();
+
+
+// console.log(pVar); 
+// When the above code is commented in, it throws a reference error, saying that the pVar value is not defined. 
+// This is a clear example of Local Scope.
+
+// ------------------------------------------------------------
+
+// Global vs. Local scope in functions.
+
+// It's possible to have a local and a global variable with the same name.
+// When you do this, the Local variable takes precedence over the global variable.
+
+var outerWear = "T-Shirt";
+
+function myOutfit() {
+    var outerWear = "Sweater";
+    return outerWear
+}
+
+console.log(myOutfit());
+
+
+// Return Keyword in functions.
+
+// You can retrieve value from a function using the return keyword.
+
+// Functions don't have to have a return keyword, there is a possibility than your function may return undefined.
+
+
+
+
+// Assignment with a returned value.
+
+
