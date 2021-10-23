@@ -301,5 +301,16 @@ console.log("After: " + JSON.stringify(testArr));
 // Definition taken from MDN web docs 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify
 
+//----------------------------------------------
+
+// Boolean values.
+// Boolean values are true or false,
+
+function welcomeToBooleans() {
+    return true;
+}
+console.log(welcomeToBooleans());
 
 
+
+//----------------------------------------------
