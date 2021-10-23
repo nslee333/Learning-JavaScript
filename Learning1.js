@@ -252,7 +252,7 @@ function change(num) {
     return (num + 5) / 3;
 }
 
-changed = changed(10);
+changed = change(10);
 
 var processed = 0;
 
@@ -280,9 +280,8 @@ processed = processArg(7);
 
 
 function nextInLine(arr, item) {
-
-
-    return item;
+    arr.push(item);
+    return arr.shift();
 }
 
 var testArr = [1,2,3,4,5];
