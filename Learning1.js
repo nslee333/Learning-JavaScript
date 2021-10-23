@@ -277,6 +277,10 @@ processed = processArg(7);
 
 // Some of the functionality of a cue using this nextInLine function.
 
+// Basically we built using the push method adding the method argument into the array.
+
+//
+
 
 
 function nextInLine(arr, item) {
