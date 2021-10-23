@@ -242,9 +242,33 @@ console.log(unFunction(2, 2));
 // This function has an output of undefined, confirming that you don't need to have a return keyword to perform a calculation.
 
 
-
-
+// ------------------------------------------------------------
 
 // Assignment with a returned value.
+
+var changed = 0;
+
+function change(num) {
+    return (num + 5) / 3;
+}
+
+changed = changed(10);
+
+var processed = 0;
+
+function processArg(num) {
+    return (num + 3 / 5);
+}
+ 
+processed = processArg(7);
+
+// this is an example of assigning a returned value to a variable, this allows us to reference a specific value/answer.
+
+
+// ------------------------------------------------------------
+
+// Stand in line.
+
+
 
 
