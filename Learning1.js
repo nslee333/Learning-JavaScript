@@ -269,6 +269,34 @@ processed = processArg(7);
 
 // Stand in line.
 
+// In computer science, a cue is an abstract data structure where items are kept in order.
+
+// New items can be added to the back of the cue and old items are taken off of the front of the cue.
+
+//  We are going to simulate that right now. 
+
+// Some of the functionality of a cue using this nextInLine function.
+
+
+
+function nextInLine(arr, item) {
+
+
+    return item;
+}
+
+var testArr = [1,2,3,4,5];
+
+console.log("Before " + JSON.stringify(testArr));
+console.log(nextInLine(testArr, 6));
+console.log("After: " + JSON.stringify(testArr));
+
+// JSON.stringify() method converts JS object or value to a JSON string, 
+// - optionally replacing values if a replacer function is 
+// - specified or optionally including only the specified properties if a replacer array is specified. 
+
+// Definition taken from MDN web docs 
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify
 
 
 
