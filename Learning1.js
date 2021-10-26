@@ -405,14 +405,45 @@ equalsIt(1, "1");
 
 // Here's some examples:
 
-// 3 === 3; This will equal to true, since they are the same type and number.
-// 3 === '3'; this will not equal true, since they are the same number, but the quotations around them are 
+3 === 3; 
+
+// This will equal to true, since they are the same type and number.
+// 3 would be an example of a integer, '3' would be an example of a string 3.
+3 === '3'; 
+
+// this will not equal true, since they are the same number, but the quotations around them make them different types.
+
+function testStrict(val) {
+    if(val === 7) {
+        return "Equal";
+    }
+    return "Not Equal.";
+}
+
+console.log(testStrict(10));
+
+// --------------------------------------
+
+// Practice comparing different values. 
 
 
+// We will do another review of the equality operator and the strict quality operator.
 
+function compareEquality(a, b,) {
+    if (a == b) {
+        return "Equal.";
+    }
+    return "Not Equal.";
+}
+ 
+console.log(compareEquality(10, "10"))
 
+// The equality operator in Javascript or "==", performs a type conversion on the arguments being provided to the function.
 
+// In the above example, the string 10 is converted to an integer data type instead of a string, then it compares the 
+// two numbers and returns the answer.
 
+// NM
 
 
 
