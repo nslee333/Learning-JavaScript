@@ -443,7 +443,38 @@ console.log(compareEquality(10, "10"))
 // In the above example, the string 10 is converted to an integer data type instead of a string, then it compares the 
 // two numbers and returns the answer.
 
-// NM
+// Now if we change the equality operator to the strict equality operator, we will get an answer of not equal, since the strict
+// Equality operator does not perform type conversion.
+
+//--------------------------------------------------------------------------------
+
+// Comparison with the inequality operator.
+
+function notEqual(a, b) {
+    if (a != b ) {
+        return "True, the two integers are unequal to each other.";
+    }
+    return "False, the two integers are equal to each other.";
+};
+
+console.log(notEqual(1, 2));
+
+// This inequality operator helps us to identify whenever two integers are unequal to each other.
+
+// This will come in handy with more complex logic paths later on.
+
+// ---------------------------------------------------------------------------------------
+
+// Comparison with the strict inequality operator.
+
+function strictNotEqual(a, b) {
+    if (a !== b) {
+        return console.log("True, the two integers are strictly unequal to each other.");
+    }
+    return console.log("False, the two integers are strictly equal to each other.");
+};
+
+strictNotEqual(10, 10);
 
 
 
