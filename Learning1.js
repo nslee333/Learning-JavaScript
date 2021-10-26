@@ -314,3 +314,59 @@ console.log(welcomeToBooleans());
 
 
 //----------------------------------------------
+
+// Use Conditional logic with If statements.
+
+// An If statement is used to make decisions in code.
+
+// The Keyword if tells JS to execute the code in the curly braces if a certain condition is met, which is defined in the 
+// Parenthesis.
+
+// Example.
+
+function ourTrueOrFalse(isItTrue) {
+    if(isItTrue) {
+        return "Yes, it is true.";
+    }
+    return "No, it is false.";
+}
+
+function trueOrFalse(wasThatTrue) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
