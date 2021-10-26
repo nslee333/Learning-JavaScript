@@ -351,13 +351,15 @@ console.log(trueOrFalse(true));
 // There are many comparison operators in Javascript that will return a boolean of true or false.
 // The most common is the equality operator.
 
-function testEqual(val == 12) {
-    if(val) {
+function testEqual(val) {
+    if(val == 12) {
         
         return "Equal.";
     }
     return "Not Equal.";
-}
+};
+
+console.log(testEqual(10));
 
 
 // One thing to note is the "==" or double equal sign here. Why not the single equal sign just like in other languages? 
@@ -375,14 +377,36 @@ function testEqual(val == 12) {
 // The other thing to note is that the JavaScript engine will convert data to loosely the same thing, which I think is pretty
 // damn cool honestly.
 
-valueOne = 1;
-valueTwo = "1";
-
-if (valueOne == valueTwo) {
-    console.log("1 is equal to '1' ;)");
-}
 
 
+function equalsIt(num, num2) {
+    if (num == num2) {
+        console.log("1 is equal to '1' ;)");
+    }
+    return "They are not equal."
+};
+
+equalsIt(1, "1");
+
+// So this is an example of the equality operator in action, it converts the '1' with the quotes into an integer, whereas
+// in a non-interpreted language, it would've printed out 
+// The next topic we're going to talk about the strict equality operator or "===".
+
+// -----------------------------------------------------------------------
+
+// Comparison with the strict equality operator.
+// or "===".
+
+// We learned about the equality operator which is the double equal sign, there is also the strict equal operator, the
+// triple equal sign or "===".
+
+// The double equal sign attempts to convert both values being compared to a common type.
+// While the strict equality operator does not do the type conversion.
+
+// Here's some examples:
+
+// 3 === 3; This will equal to true, since they are the same type and number.
+// 3 === '3'; this will not equal true, since they are the same number, but the quotations around them are 
 
 
 
