@@ -332,8 +332,57 @@ function ourTrueOrFalse(isItTrue) {
 }
 
 function trueOrFalse(wasThatTrue) {
-
+    if(wasThatTrue) {
+        return "Yes, that was true.";
+    }
+    return "No, that was false.";
 }
+
+
+console.log(trueOrFalse(true));
+
+// if/else statements is the beginning of learning control flow in programming, its one of the building blocks to get started. 
+// if/else is a great example of conditional statements in programming.
+
+// --------------------------------------------------------------------
+
+// Comparison with the equality operator.
+
+// There are many comparison operators in Javascript that will return a boolean of true or false.
+// The most common is the equality operator.
+
+function testEqual(val == 12) {
+    if(val) {
+        
+        return "Equal.";
+    }
+    return "Not Equal.";
+}
+
+
+// One thing to note is the "==" or double equal sign here. Why not the single equal sign just like in other languages? 
+// Well a single equal sign is "=", is used as an assignment operator. E.g. var X = 2. It's used for assigning the variable.
+
+
+// JavaScript being an interpreted language comes in to play here.
+
+// One thing to note in JavaScript, it is an interpreted language. What that means loosely is that the code goes
+// Through an interpreter.
+
+// A double equal sign is "==",  also known as the equality operator, a Javascript engine, or interpreter, will attempt to convert
+// data into the same type before proceeding. 
+// So as an example above, whatever the argument passed into "val" above will be checked to loosely mean the same thing.
+// The other thing to note is that the JavaScript engine will convert data to loosely the same thing, which I think is pretty
+// damn cool honestly.
+
+valueOne = 1;
+valueTwo = "1";
+
+if (valueOne == valueTwo) {
+    console.log("1 is equal to '1' ;)");
+}
+
+
 
 
 
