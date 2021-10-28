@@ -467,6 +467,8 @@ console.log(notEqual(1, 2));
 
 // Comparison with the strict inequality operator.
 
+// This is the inverse to the Strict Equality operator, it does not perform the type conversion as the inequality operator does.
+
 function strictNotEqual(a, b) {
     if (a !== b) {
         return console.log("True, the two integers are strictly unequal to each other.");
@@ -475,6 +477,20 @@ function strictNotEqual(a, b) {
 };
 
 strictNotEqual(10, 10);
+
+//------------------------------------------------------------------------------------------------------
+
+// Comparisons with the logical And operator.
+
+// We can add further complexity and capability to our logic with the And logical operator.
+
+function andOp(a, b, c, d) {
+    if (a == b) and (c == d) {
+        return console.log("Both number pairs are equal to each other.")
+    }
+    if (a)
+    return console.log("False, one of the number pairs is not equal to each other");
+}
 
 
 
